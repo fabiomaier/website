@@ -1070,7 +1070,7 @@
     $(window).on('load', function () {
         portfolioSliderHeight();
         // $("img[data-lazy-src]").foxlazy();
-        // initIsotop();
+        initIsotop();
         // $("img[data-lazy-src]").foxlazy('', function(){
         //     setTimeout(initIsotop, 500);
         // });
