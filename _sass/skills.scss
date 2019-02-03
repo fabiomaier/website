@@ -157,7 +157,7 @@
             -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
             content: attr(data-pct);
-            color: #f54ea2;
+            color: #00b5ff;
             font-size: 30px;
             font-weight: 800;
             text-align: center;
@@ -172,7 +172,7 @@
                 stroke-width: 5px;
             }
             .bar {
-                stroke: #f54ea2;
+                stroke: #222222;
                 -webkit-transform: rotate(-90deg) translate(-100%, 0%);
                 -ms-transform: rotate(-90deg) translate(-100%, 0%);
                 transform: rotate(-90deg) translate(-100%, 0%);
