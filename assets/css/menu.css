@@ -225,7 +225,7 @@ footer.zindex {
 
 .header_trans-fixed.header_top_bg.bg-fixed-color {
 	background-color: #222222;
-	box-shadow: 0px 0px 5px #222222;
+	box-shadow: 0.5px 0.5px 10px #222222;
 }
 .header_trans-fixed.header_top_bg.bg-fixed-color .mob-nav .line {
 	background-color: #fff;
