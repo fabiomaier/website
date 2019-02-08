@@ -41,6 +41,7 @@ footer.zindex {
 	top: 0;
 }
 
+
 .header_trans-fixed.header_top_bg {
 	background-color: transparent;
 	position: fixed;
@@ -109,7 +110,7 @@ footer.zindex {
 .header_top_bg.bg-fixed-color.menu_light_text .right-menu #topmenu .search-icon-wrapper i,
 .header_top_bg.bg-fixed-color .right-menu #topmenu .awa-shop-icon::before,
 .header_top_bg.bg-fixed-color.menu_light_text .right-menu #topmenu .awa-shop-icon::before {
-	color: #222222;
+	color: #ffffff;
 }
 
 
@@ -223,11 +224,11 @@ footer.zindex {
 }
 
 .header_trans-fixed.header_top_bg.bg-fixed-color {
-	background-color: #fff;
+	background-color: #222222;
 	box-shadow: 0px 0px 5px #222222;
 }
 .header_trans-fixed.header_top_bg.bg-fixed-color .mob-nav .line {
-	background-color: #222;
+	background-color: #fff;
 }
 .header_trans-fixed.header_top_bg.bg-fixed-color .logo span {
 	color: #222;
@@ -636,6 +637,7 @@ header .logo:hover {
 	.menu_light_text.header_top_bg .right-menu #topmenu .sub-menu li a {
 		color: #222222;
 	}
+
 	.mob-nav-close {
 		display: none;
 	}
