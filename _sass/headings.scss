@@ -39,7 +39,7 @@
     .subtitle,
     .title-bg,
     .but-wrap,
-    .crumbs {
+    .crumbs{
       opacity: 0;
       -webkit-transition: all .7s cubic-bezier(.37,.31,.2,.85);
       -o-transition: all .7s cubic-bezier(.37,.31,.2,.85);
@@ -50,7 +50,7 @@
     }
     .title,
     .subtitle,
-    .crumbs {
+    .crumbs{
       -moz-transform: translateZ(0);
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
@@ -333,6 +333,31 @@
   font-size: 85px;
 }
 
+.fade-element{
+  opacity: 0;
+  -webkit-transition: all .7s cubic-bezier(.37,.31,.2,.85);
+  -o-transition: all .7s cubic-bezier(.37,.31,.2,.85);
+  transition: all .7s cubic-bezier(.37,.31,.2,.85);
+  &.animation {
+    opacity: 1;
+  }
+}
+.fade-element{
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  &.animation {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+.fade-element {
+  transition-delay: .2s;
+}
+
+
 @media only screen and (max-width: 1300px){
   .headings-wrap .title-bg{
     font-size: 200px;
@@ -576,7 +601,7 @@
     font-size: 50px;
   }
 
-  
+
   .headings.style4 .title,
   .headings .title{
     font-size: 30px;

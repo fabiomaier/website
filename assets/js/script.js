@@ -680,7 +680,7 @@
 
     $(window).on('resize scroll', function () {
         if ($('.headings-wrap').length && $('.headings-wrap').hasClass('load-fade')) {
-            $('.title, .subtitle, .but-wrap, .title-bg, .but-wrap').each(function () {
+            $('.title, .subtitle, .but-wrap, .title-bg, .fade-element').each(function () {
                 var animationClass = 'animation';
                 var headingOffsetB;
                 if($(window).width() > 1024) {
