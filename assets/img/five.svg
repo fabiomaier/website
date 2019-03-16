@@ -1,0 +1,8 @@
+<svg id="awa-info-number" class="number-svg" xmlns="http://www.w3.org/2000/svg" height="150" viewBox="0 0 185 140" style="opacity: 1;">
+												<defs>
+													<pattern x="0" y="0" width="185" height="140" patternUnits="userSpaceOnUse" id="patternebd8329" viewBox="0 0 185 140">
+														<image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/colorfulBG.jpg" preserveAspectRatio="none" x="0" y="0" width="185" height="140"></image>
+													</pattern>
+												</defs>
+												<text x="45%" y="50%" id="letter" dy="50" style="text-anchor: middle;color: #000;" fill="url('#patternebd8329')">5</text>
+											</svg>
